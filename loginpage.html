@@ -4,30 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css"> 
 </head>
 <body>
   
-  <center> <h1 style="color: dodgerblue;"> Student Login Form </h1>   
-    <form>  
-        <div class="container" style="background-color: cornsilk;">   
-            <label>Username : </label>   
-            <input type="text" placeholder="Enter Username" name="username" required>  
-        </br>
-      </br>
-            <label>Password : </label>   
-            <input type="password" placeholder="Enter Password" name="password" required>  
-            <button type="submit">Login</button>   
-          </br>
-        </br>
-            <input type="checkbox" checked="checked"> Remember me   
-            <button type="button" class="cancelbtn"> Cancel</button>   
-            Forgot <a href="#"> password? </a>  
-      </br>
-    </br>
-    
-            Register<a href="signup.html">Account</a>
-        </div>   
-    </form>  
-  </center> 
+  h2>Login Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        Forgot <a href="#">Password</a>    
+    </form>     
+</div>    
 </body>
 </html>
